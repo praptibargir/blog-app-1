@@ -6,6 +6,7 @@ function Home() {
 
   return (
     <>
+    <div className="blogs-container">
     {
         blogs.map((blogObject,i)=>{
             const {
@@ -25,7 +26,8 @@ function Home() {
                 category={category}/>
             )
         })
-    }    
+    }  
+    </div>  
     </>
   )
 }

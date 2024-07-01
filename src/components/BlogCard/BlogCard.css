@@ -2,4 +2,38 @@
     background-color: bisque;
     padding: 10px;
     margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.blog-title{
+    font-size: 20px;
+}
+
+.blog-card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);;
+}
+
+.blog-content-preview{
+    font-size: 14px;
+}
+
+.author-avtar{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.author-name{
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.author-card{
+    display: flex;
+    align-items: center;
+    margin: 10px 5px;
 }

@@ -10,15 +10,17 @@ function Home() {
     {
         blogs.map((blogObject,i)=>{
             const {
-                title,
-                content,
-                author,
-                date,
-                category
+              id,
+              title,
+              content,
+              author,
+              date,
+              category
             }=blogObject
             return (
                 <BlogCard
                 key={i}
+                id={id}
                 title={title}
                 content={content}
                 author={author}

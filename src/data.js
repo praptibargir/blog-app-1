@@ -1,6 +1,6 @@
 const blogs = [
     {
-        title: "Lifesaving “Git” Commands: Mastering Emergency Situations",
+        title: "Lifesaving “Git” Commands",
         content: "Git, the widely used version control system, is a powerhouse tool for developers. It allows seamless tracking of changes, collaborative work on projects, and maintaining a complete history of all edits and updates. However, sometimes things can go wrong — a wrong branch merge, accidental commit deletions, or other mishaps. Knowing some advanced Git commands can save the day. Here’s a guide to some of the “secret” lifesaving Git commands that every developer should know.",
         author:{
             name:"Mertcan Arguç",
